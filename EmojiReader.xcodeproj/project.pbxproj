@@ -14,6 +14,7 @@
 		50FA5405292548BE009A0DDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FA5404292548BE009A0DDB /* Assets.xcassets */; };
 		50FA5408292548BE009A0DDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FA5406292548BE009A0DDB /* LaunchScreen.storyboard */; };
 		50FA54102926BD1D009A0DDB /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA540F2926BD1D009A0DDB /* EmojiTableViewController.swift */; };
+		50FA54122927707E009A0DDB /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA54112927707E009A0DDB /* EmojiTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		50FA5407292548BE009A0DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50FA5409292548BE009A0DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50FA540F2926BD1D009A0DDB /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+		50FA54112927707E009A0DDB /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		50FA53EF292548BC009A0DDB = {
 			isa = PBXGroup;
 			children = (
+				50FA54112927707E009A0DDB /* EmojiTableViewCell.swift */,
 				50FA53FA292548BC009A0DDB /* EmojiReader */,
 				50FA53F9292548BC009A0DDB /* Products */,
 			);
@@ -143,6 +146,7 @@
 			files = (
 				50FA54102926BD1D009A0DDB /* EmojiTableViewController.swift in Sources */,
 				50FA5400292548BD009A0DDB /* ViewController.swift in Sources */,
+				50FA54122927707E009A0DDB /* EmojiTableViewCell.swift in Sources */,
 				50FA53FC292548BC009A0DDB /* AppDelegate.swift in Sources */,
 				50FA53FE292548BC009A0DDB /* SceneDelegate.swift in Sources */,
 			);
