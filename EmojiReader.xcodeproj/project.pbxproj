@@ -16,6 +16,7 @@
 		50FA54102926BD1D009A0DDB /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA540F2926BD1D009A0DDB /* EmojiTableViewController.swift */; };
 		50FA54122927707E009A0DDB /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA54112927707E009A0DDB /* EmojiTableViewCell.swift */; };
 		50FA54142927F050009A0DDB /* EmojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA54132927F050009A0DDB /* EmojiModel.swift */; };
+		50FA54162928CE83009A0DDB /* NewEmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA54152928CE83009A0DDB /* NewEmojiTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		50FA540F2926BD1D009A0DDB /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
 		50FA54112927707E009A0DDB /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
 		50FA54132927F050009A0DDB /* EmojiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiModel.swift; sourceTree = "<group>"; };
+		50FA54152928CE83009A0DDB /* NewEmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEmojiTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +48,6 @@
 		50FA53EF292548BC009A0DDB = {
 			isa = PBXGroup;
 			children = (
-				50FA54132927F050009A0DDB /* EmojiModel.swift */,
-				50FA54112927707E009A0DDB /* EmojiTableViewCell.swift */,
 				50FA53FA292548BC009A0DDB /* EmojiReader */,
 				50FA53F9292548BC009A0DDB /* Products */,
 			);
@@ -68,6 +68,9 @@
 				50FA53FD292548BC009A0DDB /* SceneDelegate.swift */,
 				50FA53FF292548BC009A0DDB /* ViewController.swift */,
 				50FA540F2926BD1D009A0DDB /* EmojiTableViewController.swift */,
+				50FA54152928CE83009A0DDB /* NewEmojiTableViewController.swift */,
+				50FA54132927F050009A0DDB /* EmojiModel.swift */,
+				50FA54112927707E009A0DDB /* EmojiTableViewCell.swift */,
 				50FA5401292548BD009A0DDB /* Main.storyboard */,
 				50FA5404292548BE009A0DDB /* Assets.xcassets */,
 				50FA5406292548BE009A0DDB /* LaunchScreen.storyboard */,
@@ -151,6 +154,7 @@
 				50FA5400292548BD009A0DDB /* ViewController.swift in Sources */,
 				50FA54142927F050009A0DDB /* EmojiModel.swift in Sources */,
 				50FA54122927707E009A0DDB /* EmojiTableViewCell.swift in Sources */,
+				50FA54162928CE83009A0DDB /* NewEmojiTableViewController.swift in Sources */,
 				50FA53FC292548BC009A0DDB /* AppDelegate.swift in Sources */,
 				50FA53FE292548BC009A0DDB /* SceneDelegate.swift in Sources */,
 			);
@@ -307,6 +311,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,6 +340,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
